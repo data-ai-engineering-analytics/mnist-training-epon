@@ -1,7 +1,19 @@
 [project]
 name = "mnist-training-epon"
 version = "0.1.0"
-description = "Add your description here"
+description = "MNIST Training > 99.4% > Max 20 Epochs"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "albumentationsx>=2.0.10",
+    "aws-cdk-lib>=2.214.0",
+    "ipykernel>=6.30.1",
+    "matplotlib>=3.10.6",
+    "pandas>=2.3.2",
+    "pillow>=11.3.0",
+    "torch>=2.8.0",
+    "torch-summary>=1.4.5",
+    "torchaudio>=2.8.0",
+    "torchvision>=0.23.0",
+    "tqdm>=4.67.1",
+]
